@@ -1,0 +1,41 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 7,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "You should not change or delete the existing elements in the head tag",
+      "status": "passed"
+    },
+    {
+      "title": "The styles.css file should be empty",
+      "status": "passed"
+    },
+    {
+      "title": "Do not use any inline styles, just use the bootstrap classes for styling",
+      "status": "passed"
+    },
+    {
+      "title": "You should not change the first row",
+      "status": "passed"
+    },
+    {
+      "title": "The second row should contain 3 columns of the same width",
+      "status": "passed"
+    },
+    {
+      "title": "You should create a third row with one column of 12 slot and the background red",
+      "status": "passed"
+    },
+    {
+      "title": "The main div tag should contain the class container-fluid",
+      "status": "passed"
+    }
+  ]
+}

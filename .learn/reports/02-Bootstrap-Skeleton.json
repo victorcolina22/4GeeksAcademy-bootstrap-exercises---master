@@ -1,0 +1,37 @@
+{
+  "success": false,
+  "numFailedTestSuites": 0,
+  "numFailedTests": 0,
+  "numPassedTests": 6,
+  "testResults": [
+    {
+      "message": null
+    }
+  ],
+  "failed": [
+    {
+      "title": "You should not change or delete the existing elements in the head tag",
+      "status": "passed"
+    },
+    {
+      "title": "The styles.css file should be empty",
+      "status": "passed"
+    },
+    {
+      "title": "The head tag should contain the link tag for Bootstrap",
+      "status": "passed"
+    },
+    {
+      "title": "The body should contain a div tag",
+      "status": "passed"
+    },
+    {
+      "title": "The div tag should wrap the existing h1 and p tags",
+      "status": "passed"
+    },
+    {
+      "title": "The div tag should contain the class container-fluid",
+      "status": "passed"
+    }
+  ]
+}

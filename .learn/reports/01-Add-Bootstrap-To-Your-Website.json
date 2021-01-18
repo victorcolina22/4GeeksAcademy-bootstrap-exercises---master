@@ -1,0 +1,25 @@
+{
+  "success": false,
+  "numFailedTestSuites": 1,
+  "numFailedTests": 1,
+  "numPassedTests": 2,
+  "testResults": [
+    {
+      "message": "\u001b[1m\u001b[31m  \u001b[1m● \u001b[1m1. The html code should contain the link tag and 3 Boostrap script tags › The body should contain 3 script tags before the body closing tag\u001b[39m\u001b[22m\n\n    \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBeTruthy\u001b[2m()\u001b[22m\n\n    Received: \u001b[31mfalse\u001b[39m\n\u001b[2m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 54 | \u001b[39m        \u001b[90m// we can read from the source code\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 55 | \u001b[39m        \u001b[90m// console.log(html.toString());\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m\u001b[31m\u001b[1m>\u001b[2m\u001b[39m\u001b[90m 56 | \u001b[39m        expect(html\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<script src=\"https://code.jquery.com/jquery-3.3.1.slim.min.js\" integrity=\"sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo\" crossorigin=\"anonymous\"></script>`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m    | \u001b[39m                                                                                                                                                                                                                                   \u001b[31m\u001b[1m^\u001b[2m\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 57 | \u001b[39m        expect(html\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<script src=\"https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js\" integrity=\"sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1\" crossorigin=\"anonymous\"></script>`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 58 | \u001b[39m        expect(html\u001b[33m.\u001b[39mtoString()\u001b[33m.\u001b[39mindexOf(\u001b[32m`<script src=\"https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js\" integrity=\"sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM\" crossorigin=\"anonymous\"></script>`\u001b[39m)\u001b[33m>\u001b[39m\u001b[33m-\u001b[39m\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBeTruthy()\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m    \u001b[0m \u001b[90m 59 | \u001b[39m    })\u001b[33m;\u001b[39m\u001b[0m\u001b[22m\n\u001b[2m\u001b[22m\n\u001b[2m      \u001b[2mat Object.<anonymous> (\u001b[2m\u001b[0m\u001b[36mexercises/01-Add-Bootstrap-To-Your-Website/tests.js\u001b[39m\u001b[0m\u001b[2m:56:228)\u001b[2m\u001b[22m\n"
+    }
+  ],
+  "failed": [
+    {
+      "title": "You should not change or delete the existing elements in the head tag",
+      "status": "passed"
+    },
+    {
+      "title": "The head tag should contain the link tag for Bootstrap",
+      "status": "passed"
+    },
+    {
+      "title": "The body should contain 3 script tags before the body closing tag",
+      "status": "failed"
+    }
+  ]
+}
